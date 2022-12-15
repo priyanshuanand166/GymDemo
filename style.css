@@ -43,21 +43,22 @@ body
          {
             display: inline-block;
             font-size: 25px;
+            font-weight: bold;
+            padding: 4px 23px;
          }
 
          .navbar li a
          {
             color: white;
             text-decoration: none;
-            padding: 34px 23px;
          }
 
          
-         .navbar li a:hover, 
-         .navbar li a.active
+         .navbar li a:hover
          {
             text-decoration: underline;
             color: gray;
+            font-weight:lighter;
          }
 
          .left img
